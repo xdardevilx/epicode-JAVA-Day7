@@ -13,6 +13,12 @@ public class Main {
         rubrica.add("marco", "3456789015");
         rubrica.add("maurizio", "3456789016");
 
+        System.out.println("inserisci il nome della persona che vuoi aggiungere");
+        String name = sc.next();
+        System.out.println("inserisci il numero della persona che vuoi aggiungere");
+        String number = sc.next();
+        rubrica.add(name, number);
+
         System.out.println("ricerca tramite numero: inserisci il numero della persona che vuoi cercare");
         String numero = sc.next();
         System.out.println(rubrica.searchContactByNumber(numero));
