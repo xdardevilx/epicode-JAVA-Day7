@@ -28,5 +28,6 @@ public class Main {
         rubrica.deleteContact(Name);
         System.out.println("-----------------------------------------------------------------------------");
         rubrica.printRubrica();
+        sc.close();
     }
 }
